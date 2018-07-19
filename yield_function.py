@@ -1,3 +1,17 @@
+# File: yield_function.py
+# Description: Function for modifying lists with remove and count methods
+# Environment: PyCharm and Anaconda environment
+#
+# MIT License
+# Copyright (c) 2018 Valentyn N Sichkar
+# github.com/sichkar-valentyn
+#
+# Reference to:
+# [1] Valentyn N Sichkar. Using yield instead of return in functions in Python // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/yield_function_in_Python (date of access: XX.XX.XXXX)
+
+
+
+
 # Implementing the task
 # Show n first numbers of the sequence
 # 1 2 2 3 3 3 4 4 4 4 5 5 5 5 5 etc.
@@ -22,3 +36,4 @@ def generator(n):
 
 # Showing the results by joining generated integer numbers as string values
 print(' '.join(generator(6)))
+
